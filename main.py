@@ -11,8 +11,8 @@ def PrimeList(N):
         is prime=Ture
         for i in range(2,int(num**0.5)+1):
             if num % i==0:
-                is prime=False
+                is_prime=False
                 break
-    if is prime:
+    if is_prime:
         primes.append(str(num))
-return ''.join(primes)
+return "".join(primes)
